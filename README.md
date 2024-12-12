@@ -16,7 +16,7 @@ However, if this is your first time launching IDEA or you closed the current pro
 From here, you can click **'Get from VCS'** to clone a project from a remote repository. If you try this and you get a message saying that Git is not installed, then you need to install Git first. If you've installed Git and it still gives you this message, you will need to configure IntelliJ IDEA to explicitly define the Git executable location.
 
 From the File menu in IntelliJ IDEA, click 'Settings', then select 'Version Control', and finally Git. The screen will appear as shown below with a section to enter 'Path to Git executable'. In Windows, it will generally be in 'Program Files\Git\cmd\git.exe'. The important point is that you need to provide the location of 'git.exe' and not just the install directory for Git. 
-![IntelliJ Settings Version Control](./images/Git_Settings_IntelliJ.png)
+![IntelliJ Settings Version Control](./images/GitConfigCorrect.png)
 
 There is a folder icon you can use to browse with Windows explorer to help locate the Git executable. If you followed the CAB302 IDE Configuration Video setup guide then hopefully this will not be an issue. However, if you installed the applications in the wrong order then it is possible IntelliJ IDEA does not know the Git executable location. 
 ![IntelliJ Settings Version Control Not Installed](./images/GitNotInstalled.png)
