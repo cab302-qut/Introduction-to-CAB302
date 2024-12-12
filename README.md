@@ -5,7 +5,7 @@ This exercise is to familiarise you with cloning projects from a remote Git repo
 
 First, you need to run IntelliJ and get ready to clone from a remote version control system. There are two main ways you might do this. Note that these instructions are for Windows, but everything should be fairly similar in Linux and MacOS (Git will not have the filename `git.exe`, of course).
 
-## Confirm Git Installation
+### Confirm Git Installation
 
 When you launch IDEA, if you had a project open when you last used it, that project will re-open automatically. If the last project was closed, you may also have a list of recently opened projects displayed on the welcome screen.
 ![IntelliJ IDEA launcher screenshot](./images/IntelliJStartUpOptions.png)
@@ -20,11 +20,12 @@ From the File menu in IntelliJ IDEA, click 'Settings', then select 'Version Cont
 
 There is a folder icon you can use to browse with Windows explorer to help locate the Git executable. If you followed the CAB302 IDE Configuration Video setup guide then hopefully this will not be an issue. However, if you installed the applications in the wrong order then it is possible IntelliJ IDEA does not know the Git executable location. 
 ![IntelliJ Settings Version Control Not Installed](./images/GitNotInstalled.png)
+
 Once you have located the Git exectable there is a 'Test' button in the Version Control section of IntelliJ IDEA settings - click the 'Test' button and if you have found the Git executable (git.exe) then the display will show the version installed on your system.
-**NOTE: Do not check 'Set this path only for the current project** as you will need Git for the entire semester in CAB302.
+**NOTE: Do not check 'Set this path only for the current project'** as you will need Git for the entire semester in CAB302.
 ![IntelliJ Settings Version Control Git Testing](./images/SelectingGitIntelliJ.png)
 
-## Cloning a project from within IntelliJ IDEA 
+### Cloning a project from within IntelliJ IDEA 
 
 If you already working in IntelliJ, and you need to clone a repository, you will instead need select **File -> New -> Project from Version Control**. This will open up a dialog similar to the image below. If Git is not installed properly, refer to the previous section to configure Git.
 
@@ -34,8 +35,9 @@ You will also need to enter the directory where you want to clone the project in
 ![Clone repository into IntelliJ IDEA](./images/CloneRepoScreen.png).
 
 If a dialog pops up asking if you trust this project, choose to trust it. IDEA should now download the project files and open the project.
-![IntelliJ Trust Project](./images/TrustProject.png)
-## Cloning a project IntelliJ IDEA Start screen
+![Trust Project IntelliJ IDEA](./images/TrustProject.png).
+
+### Cloning a project IntelliJ IDEA Start screen
 
 You can select **Clone Repository** from the IntelliJ IDEA Welcome Screen. If you click **Clone Repository** the same dialog screen will appear as before and you will still need to enter the URL of the project you want to clone, as well as select the destination directory on your hard drive. Once this is completed and you click **Clone** the project will load into IntelliJ IDEA.
 ![Clone repository into IntelliJ IDEA](./images/RepoCloned.png).
@@ -45,5 +47,3 @@ You can select **Clone Repository** from the IntelliJ IDEA Welcome Screen. If yo
 If all goes well, you should just be able to navigate to **src -> intro -> Introduction** to open up the main source file for the project. From there, click one of the green arrows (either the one next to the class definition or the one next to the main method) and click Run 'Introduction.main()' to run the program, which should show 'Welcome to CAB302' in ASCII art. If the green arrows are not present, look at the top of the source file window - there may be a message there saying that the JDK is not set up. Clicking that message should allow you to select **Amazon Corretto 21** and resolve that problem.
 ![Run Project in IntelliJ IDEA](./images/RunProject.png).
 ![Run Project Executed in IntelliJ IDEA](./images/ProjectExecuted.png).
-
-#### NOTE: You can use SSH addresses however you will need to configure SSH keys
