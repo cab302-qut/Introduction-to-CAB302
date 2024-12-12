@@ -22,7 +22,7 @@ There is a folder icon you can use to browse with Windows explorer to help locat
 ![IntelliJ Settings Version Control Not Installed](./images/GitNotInstalled.png)
 Once you have located the Git exectable there is a 'Test' button in the Version Control section of IntelliJ IDEA settings - click the 'Test' button and if you have found the Git executable (git.exe) then the display will show the version installed on your system.
 **NOTE: Do not check 'Set this path only for the current project** as you will need Git for the entire semester in CAB302.
-![IntelliJ Settings Version Control Git Testing](./images/Git_Settings_IntelliJ.png)
+![IntelliJ Settings Version Control Git Testing](./images/SelectingGitIntelliJ.png)
 
 ### From inside an IntelliJ IDEA project
 
