@@ -7,8 +7,10 @@ First, you need to run IntelliJ and get ready to clone from a remote version con
 
 ### From the IntelliJ IDEA launcher
 
-When you launch IDEA, if you had a project open when you last used it, that project will re-open automatically. However, if this is your first time launching IDEA or you closed the current project, you will be greeted by the IntelliJ IDEA launcher, which will look something like this:
+When you launch IDEA, if you had a project open when you last used it, that project will re-open automatically. If the last project was closed, you may also have a list of recently opened projects displayed on the welcome screen.
+![IntelliJ IDEA launcher screenshot](./images/IntelliJStartUpOptions.png)
 
+However, if this is your first time launching IDEA or you closed the current project, you will be greeted by the IntelliJ IDEA launcher, which will look something like the following (Note: The version numbers may be slightly different depending on the installation date):
 ![IntelliJ IDEA launcher screenshot](./images/intellij1.png)
 
 From here, you can click 'Get from VCS' to clone a project from a remote repository. If you try this and you get a message saying that Git is not installed, then you need to install Git first. If you've installed Git and it still gives you this message, you will need to tell it where Git is. From the launcher, click 'Customize', then click 'All settings...'. There is a search box in the top left corner - click on this and type in 'Git'. Then you should be able to easily find Version Control -> Git in the settings tree below the search box. On that screen, you will want to click the folder icon inside the 'Path to Git executable:' text field, then navigate to where you installed Git and find the git.exe file inside there (it's usually in a directory called 'bin' inside the Git directory.) Then click 'Test' - if it shows Git's version number, the test was successful and you can now click 'OK' at the bottom of the dialog.
