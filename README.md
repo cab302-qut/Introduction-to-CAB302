@@ -34,6 +34,10 @@ You will also need to enter the directory where you want to clone the project in
 ![Clone repository into IntelliJ IDEA](./images/CloneRepoScreen.png).
 
 If a dialog pops up asking if you trust this project, choose to trust it. IDEA should now download the project files and open the project.
+### Cloning a project IntelliJ IDEA Start screen
+
+You can select **Clone Repository** from the IntelliJ IDEA Welcome Screen. If you click **Clone Repository** the same dialog screen will appear as before and you will still need to enter the URL of the project you want to clone, as well as select the destination directory on your hard drive. Once this is completed and you click **Clone** the project will load into IntelliJ IDEA.
+![Clone repository into IntelliJ IDEA](./images/RepoCloned.png).
 
 # Running the project
 
