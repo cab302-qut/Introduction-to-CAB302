@@ -1,8 +1,13 @@
 ![alt text](./images/AdobeStock_902503425.jpeg "Agile Software Development")
 # Introduction to CAB302
 
-This exercise is to familiarise you with cloning projects from a remote Git repository so that you can work on them in IntelliJ IDEA on your own machine. Most CAB302 practicals will work this way - the first step you will take is cloning a Git repository.
+This exercise is to familiarise yourself with cloning projects from a remote Git repository. Most of the CAB302 practicals be delivered this way, requiring you to clone the repository containing the practical to your local machine. So it is essential to understand how to clone a remote repository.  
 
+Detailed guides have been provided on the CAB302 Canvas site. We expect that you have already completed Activity 0.1 and Activity 0.2 in advance of the Week 1 Lecture and Practicals. You will need to complete these activities before you clone this repository so if you have not done so please complete these activites on Canvas first.
+1. Activity 0.1 - How to setup the Integrated Development Environment (IDE) required for CAB302
+2. Activity 0.2 - Testing the IDE setup and configuration is correct
+
+There are a number of ways to clone a remote repository, however, for the moment we will be using IntelliJ IDEA to clone the repository. If you prefer to use Git Bash (Bourne Again Shell) and are familiar with the command line utility then you can certainly go down that path. Most students will probably prefer to let IntelliJ IDEA do all the heavy lifting rather than using a command line utility. To get started you will need to start IntelliJ IDEA.
 First, you need to run IntelliJ and get ready to clone from a remote version control system. There are two main ways you might do this. Note that these instructions are for Windows, but everything should be fairly similar in Linux and MacOS (Git will not have the filename `git.exe`, of course).
 
 ### Confirm Git Installation
