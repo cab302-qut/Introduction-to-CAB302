@@ -1,22 +1,36 @@
 ![alt text](./images/AdobeStock_902503425.jpeg "Agile Software Development")
 # Introduction to CAB302
 
-This exercise is to familiarise yourself with cloning projects from a remote Git repository. Most of the CAB302 practicals be delivered this way, requiring you to clone the repository containing the practical to your local machine. So it is essential to understand how to clone a remote repository.  
+This exercise is to familiarise yourself with cloning projects from a remote Git repository. Most of the CAB302 practicals be delivered this way, requiring you to clone the repository containing the practical to your local machine. So it is essential to understand how to clone a remote repository. All of the practical material will be hosted on GitHub so it is worth creating your own personal account on GitHub - we would recommend to use your QUT email address.
 
-Detailed guides have been provided on the CAB302 Canvas site. We expect that you have already completed Activity 0.1 and Activity 0.2 in advance of the Week 1 Lecture and Practicals. You will need to complete these activities before you clone this repository so if you have not done so please complete these activites on Canvas first.
-1. Activity 0.1 - How to setup the Integrated Development Environment (IDE) required for CAB302
-2. Activity 0.2 - Testing the IDE setup and configuration is correct
+There are two detailed guides that have been provided on the CAB302 Canvas site **(Activity 0.1 & Activity 0.2)**. We expect that you will have completed both these activites in advance of Week 1 CAB302 Lecture and Practicals. You will need to complete these activities prior to cloning this repository. If you have not yet done these please complete both activities before attempting to clone this repository.
+1. **Activity 0.1** - How to setup the Integrated Development Environment (IDE) required for CAB302
+2. **Activity 0.2** - Testing the IDE setup and configuration is correct
 
-There are a number of ways to clone a remote repository, however, for the moment we will be using IntelliJ IDEA to clone the repository. If you prefer to use Git Bash (Bourne Again Shell) and are familiar with the command line utility then you can certainly go down that path. Most students will probably prefer to let IntelliJ IDEA do all the heavy lifting rather than using a command line utility. To get started you will need to start IntelliJ IDEA.
-First, you need to run IntelliJ and get ready to clone from a remote version control system. There are two main ways you might do this. Note that these instructions are for Windows, but everything should be fairly similar in Linux and MacOS (Git will not have the filename `git.exe`, of course).
+There are a number of ways to clone a remote repository, however, for the moment we will be using IntelliJ IDEA. If you prefer to use Git Bash (Bourne Again Shell) and are familiar with the command line utility, then you can certainly go down that path. Most students will probably prefer to let IntelliJ IDEA do all the heavy lifting when starting out working with source/version control. 
+
+## Preparation 
+First you will need to start IntelliJ IDEA. When you start IntelliJ IDEA and if you had previously been working on a project that has not been closed, that same project will automatically load when re-starting IntelliJ IDEA. To get access to the controls to clone a remote respository you will need to close the current project. Once the project is closed the Welcome Screen will appear, similiar to the image in figure 1.
+
+![IntelliJ IDEA Clone Repository](./images/cloneRepo1.png)
+Figure 1 - IntelliJ IDEA Clone Repository 
+
+The other option is to save any changes to the current project then select **File --> New --> Project from Version Control** (see figure 2)
+
+![IntelliJ IDEA Clone Repository](./images/FileCloneFromVC.png)
+Figure 2 - IntelliJ IDEA Clone Repository File Menu
+
+However, if this is your first time launching IntelliJ IDEA, you will be greeted by the IntelliJ IDEA launcher, which will look something like the following in figure 3. Click **Clone Repository**  **(Note: The version numbers may be slightly different depending on the installation date)**:
+![IntelliJ IDEA launcher screenshot](./images/intellij1.png)
+
+Regardless of how you are going to clone the repository the same dialogue screen will appear as in figure 4. You will need to get the URL of the repository you want to clone and set the directory where the cloned repository is to be stored on your hard drive. When cloning a repository you will need to select a new directory 
 
 ### Confirm Git Installation
 
 When you launch IDEA, if you had a project open when you last used it, that project will re-open automatically. If the last project was closed, you may also have a list of recently opened projects displayed on the welcome screen.
 ![IntelliJ IDEA launcher screenshot](./images/IntelliJStartUpOptions.png)
 
-However, if this is your first time launching IDEA or you closed the current project, you will be greeted by the IntelliJ IDEA launcher, which will look something like the following **(Note: The version numbers may be slightly different depending on the installation date)**:
-![IntelliJ IDEA launcher screenshot](./images/intellij1.png)
+
 
 From here, you can click **'Get from VCS'** to clone a project from a remote repository. If you try this and you get a message saying that Git is not installed, then you need to install Git first. If you've installed Git and it still gives you this message, you will need to configure IntelliJ IDEA to explicitly define the Git executable location.
 
